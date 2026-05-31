@@ -1,0 +1,152 @@
+:host {
+  color-scheme: light;
+  --paper: #f5f0e7;
+  --ink: #1f2a28;
+  --ink-soft: #5d6764;
+  --shadow: rgba(38, 28, 15, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gpen-root {
+  all: initial;
+  color: var(--ink);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 2147483647;
+}
+
+.gpen-canvas-layer {
+  inset: 0 auto auto 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.gpen-canvas-layer.is-interactive {
+  pointer-events: auto;
+}
+
+#drawing-surface {
+  display: block;
+  height: 100%;
+  touch-action: none;
+  width: 100%;
+}
+
+.gpen-toolbar-shell {
+  inset: 18px 18px auto auto;
+  position: fixed;
+}
+
+.gpen-toolbar-card {
+  backdrop-filter: blur(18px);
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.84), transparent 34%),
+    linear-gradient(180deg, rgba(251, 248, 242, 0.92), rgba(245, 240, 231, 0.94));
+  border: 1px solid rgba(31, 42, 40, 0.12);
+  border-radius: 20px;
+  box-shadow: 0 22px 54px -34px var(--shadow);
+  display: grid;
+  gap: 12px;
+  max-width: min(420px, calc(100vw - 24px));
+  padding: 14px;
+  pointer-events: auto;
+}
+
+.gpen-root.is-collapsed .gpen-status-block {
+  display: none;
+}
+
+.gpen-heading {
+  display: grid;
+  gap: 6px;
+}
+
+.gpen-eyebrow {
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", serif;
+  font-size: clamp(28px, 4vw, 34px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.gpen-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+button {
+  all: unset;
+  appearance: none;
+  border: 1px solid rgba(31, 42, 40, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  padding: 10px 14px;
+  transition:
+    transform 120ms ease,
+    border-color 120ms ease,
+    background 120ms ease,
+    color 120ms ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(31, 42, 40, 0.24);
+}
+
+.gpen-tool-button.is-active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #f6f1e8;
+}
+
+.gpen-ghost-button {
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.gpen-status-block {
+  display: grid;
+  gap: 4px;
+}
+
+.gpen-status-block p {
+  margin: 0;
+}
+
+#status-line {
+  font-weight: 600;
+}
+
+#hint-line {
+  color: var(--ink-soft);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+@media (max-width: 640px) {
+  .gpen-toolbar-shell {
+    inset: 12px 12px auto 12px;
+  }
+
+  .gpen-toolbar-card {
+    max-width: none;
+    padding: 12px;
+  }
+}

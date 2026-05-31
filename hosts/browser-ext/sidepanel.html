@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GPen</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">v0.1 Browser Demo</p>
+          <h1>GPen</h1>
+        </div>
+        <div class="toolbar" role="toolbar" aria-label="Tools">
+          <button type="button" data-tool="draw" class="tool-button is-active">
+            Draw
+          </button>
+          <button type="button" data-tool="lasso" class="tool-button">
+            Lasso
+          </button>
+          <button type="button" id="delete-button" class="ghost-button">
+            Delete Selected
+          </button>
+          <button type="button" id="clear-button" class="ghost-button">
+            Clear
+          </button>
+        </div>
+      </header>
+
+      <section class="workspace-card">
+        <div class="workspace-meta">
+          <p id="status-line">Loading WASM...</p>
+          <p id="hint-line">
+            Draw with mouse or pen. Pen pressure is sampled when the browser
+            provides it.
+          </p>
+        </div>
+        <div class="canvas-frame">
+          <canvas id="drawing-surface"></canvas>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="sidepanel.js"></script>
+  </body>
+</html>

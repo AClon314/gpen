@@ -1,0 +1,7 @@
+/secret.json
+
+.zig-cache/
+.zig-global-cache/
+zig-out/
+hosts/vscode-ext/dist/
+node_modules/

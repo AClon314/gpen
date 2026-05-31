@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+package gpen;
+
+import "gpen/v1/model.proto";
