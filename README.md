@@ -28,3 +28,17 @@ zig build test --global-cache-dir ./.zig-global-cache --cache-dir ./.zig-cache
 zig build --global-cache-dir ./.zig-global-cache --cache-dir ./.zig-cache
 /home/n/.pixi/bin/zig build demo --global-cache-dir ./.zig-global-cache --cache-dir ./.zig-cache
 ```
+
+## Licensing
+
+This repository uses a dual-license model.
+
+- Community use defaults to `AGPL-3.0-or-later`.
+- Closed-source distribution, proprietary embedding, or other use outside the
+  AGPL requires a separate written commercial license from the copyright
+  holder.
+
+The `gpen` name, logos, icons, and other brand assets are not automatically
+licensed with the source code. See [LICENSE](LICENSE),
+[LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md), [TRADEMARKS.md](TRADEMARKS.md),
+and [CONTRIBUTING.md](CONTRIBUTING.md).
