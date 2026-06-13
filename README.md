@@ -35,10 +35,20 @@ This repository uses a dual-license model.
 
 - Community use defaults to `AGPL-3.0-or-later`.
 - Closed-source distribution, proprietary embedding, or other use outside the
-  AGPL requires a separate written commercial license from the copyright
-  holder.
+  AGPL is available only after purchasing a separate written commercial license
+  from the copyright holder.
+- The commercial option described in `LICENSE-Commercial.md` is part of that
+  licensing path only. It does not apply automatically to public users of this
+  repository.
+- `gpen-protocol` and `gpen-ui-js` are exceptions: they are publicly available
+  under Apache License 2.0 so the protocol can be reused as an open standard
+  and the UI components can be reused by other frontend projects.
+
+All contributors must sign a `CLA` before a contribution can be accepted. By
+signing that `CLA`, contributors agree that their contributions may be
+distributed under both `AGPL-3.0-or-later` and separate commercial licenses.
 
 The `gpen` name, logos, icons, and other brand assets are not automatically
-licensed with the source code. See [LICENSE](LICENSE),
-[LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md), [TRADEMARKS.md](TRADEMARKS.md),
-and [CONTRIBUTING.md](CONTRIBUTING.md).
+licensed with the source code. See [LICENSE-AGPLv3.md](LICENSE-AGPLv3.md),
+[LICENSE-Commercial.md](LICENSE-Commercial.md), [TRADEMARKS.md](TRADEMARKS.md), and
+[CONTRIBUTE.md](CONTRIBUTE.md).

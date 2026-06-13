@@ -1,0 +1,27 @@
+[submodule "gpen-blender-ext"]
+	path = gpen-blender-ext
+	url = https://github.com/AClon314/gpen-blender-ext.git
+	branch = main
+[submodule "gpen-browser-ext"]
+	path = gpen-browser-ext
+	url = https://github.com/AClon314/gpen-browser-ext.git
+	branch = main
+[submodule "gpen-protocol"]
+	path = gpen-protocol
+	url = https://github.com/AClon314/gpen-protocol.git
+	branch = main
+[submodule "gpen-ui-js"]
+	path = gpen-ui-js
+	url = https://github.com/AClon314/gpen-ui-js.git
+	branch = main
+[submodule "gpen-vscode-ext"]
+	path = gpen-vscode-ext
+	url = https://github.com/AClon314/gpen-vscode-ext.git
+	branch = main
+[submodule "gpen-zig"]
+	path = gpen-zig
+	url = https://github.com/AClon314/gpen-zig.git
+	branch = main
+[submodule "Graphite"]
+	path = Graphite
+	url = ./Graphite

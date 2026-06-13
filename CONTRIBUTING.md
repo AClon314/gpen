@@ -1,22 +1,24 @@
 # Contributing
 
-Contributions are welcome, but this repository uses dual licensing and needs a
-clear inbound licensing rule.
+All contributors must sign the project's contributor license agreement (`CLA`)
+before a contribution can be accepted.
 
-## Inbound license terms
+## CLA requirement
 
-By submitting a patch, pull request, issue attachment, or other contribution to
-this repository, you represent that you have the right to submit it and you
-agree that:
+By signing the CLA and submitting a patch, pull request, issue attachment, or
+other contribution to this repository, you represent that you have the right to
+submit it and you agree that:
 
 - your contribution may be used, modified, and distributed under
   `AGPL-3.0-or-later`
-- you grant the project owner a perpetual, worldwide, non-exclusive,
-  irrevocable license to use, modify, sublicense, and relicense your
-  contribution under other licenses, including commercial licenses for this
-  project
+- your contribution may also be used, modified, and distributed under separate
+  commercial licenses for this project
+- the project owner may sublicense and relicense your contribution under both
+  community and commercial terms, including the commercial option described in
+  `LICENSE-Commercial.md`
 
-If you cannot agree to those terms, do not submit the contribution.
+If you cannot agree to those terms or will not sign the CLA, do not submit the
+contribution.
 
 ## Brand assets
 

@@ -4,11 +4,22 @@
 - [x] 只做最基础的交互：添加笔画、套索选择笔画、删除笔画
 - [x] 先打通一个宿主最小 demo：浏览器扩展
 - [x] 浏览器扩展中完成 Zig WASM ABI 到前端交互的最小闭环
+- [ ] lit 前端页面
 - [ ] VSCode 扩展作为同阶段次要宿主，放在浏览器 demo 跑通之后
 - [ ] 暂时不做图层、时间线、文档树等完整 Grease Pencil 系统
 - [ ] 暂时不做 Blender 插件集成
 - [ ] 暂时不做 tilt / twist / eraser 等扩展硬件字段
 - [ ] 暂时只做内存态，不做存储方案
+
+### 人工refactor
+
+接口/字段设计很重要
+
+- [ ] zig-protobuf 生成 .zig接口文件，并实施 客户端/服务端 双架构
+- [ ] zig 编译为 .so与.wasm
+- [ ] 编写lit前端组件
+- [ ] protobuf 生成 js 脚本(纯客户端)
+- [ ] 组装为 xpi/crx -> vscode .vsix -> blender拓展
 
 ## v0.2 数据模型扩展 & Blender 对齐
 
