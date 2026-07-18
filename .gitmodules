@@ -10,9 +10,9 @@
 	path = gpen-protocol
 	url = https://github.com/AClon314/gpen-protocol.git
 	branch = main
-[submodule "gpen-ui-js"]
-	path = gpen-ui-js
-	url = https://github.com/AClon314/gpen-ui-js.git
+[submodule "gpen-js"]
+	path = gpen-js
+	url = ./gpen-js
 	branch = main
 [submodule "gpen-vscode-ext"]
 	path = gpen-vscode-ext
@@ -22,6 +22,9 @@
 	path = gpen-zig
 	url = https://github.com/AClon314/gpen-zig.git
 	branch = main
-[submodule "Graphite"]
-	path = Graphite
-	url = ./Graphite
+[submodule "zig-flatbuffers"]
+	path = zig-flatbuffers
+	url = https://github.com/AClon314/zig-flatbuffers.git
+[submodule "webgpu-wasm-zig"]
+	path = tmp/webgpu-wasm-zig
+	url = https://github.com/AClon314/webgpu-wasm-zig.git
