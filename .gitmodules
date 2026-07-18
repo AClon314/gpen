@@ -8,7 +8,7 @@
 	branch = main
 [submodule "gpen-protocol"]
 	path = gpen-protocol
-	url = https://github.com/AClon314/gpen-protocol.git
+	url = ./gpen-protocol
 	branch = main
 [submodule "gpen-js"]
 	path = gpen-js
@@ -20,7 +20,7 @@
 	branch = main
 [submodule "gpen-zig"]
 	path = gpen-zig
-	url = https://github.com/AClon314/gpen-zig.git
+	url = ./gpen-zig
 	branch = main
 [submodule "zig-flatbuffers"]
 	path = zig-flatbuffers
